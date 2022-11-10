@@ -54,6 +54,7 @@ int main() {
 			break;
 		}
 	} while (!complete);
+	delete[] a;
 }
 
 bool foundNumber(double*& a, const int& size, double number) {
